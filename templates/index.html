@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">    
+    <head>
+        <title>CulinaryChronicle</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <script src="{{ url_for('static', filename='main.js') }}"></script>
+    </head>
+    <body>
+        <div class="navbar">
+            <button onclick="home()">Home</button>
+            <button onclick="recipes()">Recipes</button>
+            <button onclick="login()" class="right">Login</button>
+            <button onclick="signup()" class="rightr">Sign Up</button>
+            <!--<button onclick="logout()" class="right">Logout</button>-->
+        </div>
+        <div class="container">    
+            <h1>Welcome to Culinary Chronicle!</h1>
+            <br><br>
+            <p>Embark on a culinary journey like never before with Culinary Chronicle - your go-to destination for sharing and discovering mouthwatering recipes from around the globe.</p>
+            <p>Whether you're a seasoned chef or a kitchen enthusiast, our platform is designed to bring the joy of cooking and the love of good food to every home.</p>
+        </div>
+    </body>
+</html>

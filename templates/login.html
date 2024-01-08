@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <script src="{{ url_for('static', filename='main.js') }}"></script>
+    </head>
+    <body>
+        <div class="navbar">
+            <button onclick="home()">Home</button>
+            <button onclick="recipes()">Recipes</button>
+            <button onclick="login()" class="right">Login</button>
+            <button onclick="signup()" class="rightr">Sign Up</button>
+            <!--<button onclick="logout()" class="right">Logout</button>-->
+        </div>
+        <div class="container">
+            <h1>Log In</h1>
+            <br><br>
+            <form method="post" action="/login">
+                <input type="text" name="username" class="username-field" placeholder="Username">
+                <br><br>
+                <input type="password" name="password" class="username-field" placeholder="Password">
+                <br><br>
+                <input value="Login" type="submit" class="submit-field">
+            </form>
+            <br><br>
+            <p>Don't have an account? <a href="/signup">Sign Up</a></p>
+        </div>
+    </body>
+</html>

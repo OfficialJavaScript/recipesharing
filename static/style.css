@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans&family=Quicksand&family=Raleway&family=Tektur&family=Ubuntu&display=swap');
+
+
+html {
+    background-color: #AC87C5;
+    color: white;
+    font-family: 'Tektur', sans-serif;
+}
+
+* {
+    margin: 0;
+}
+
+.container {
+    padding: 50px;
+    text-align: center;
+}
+
+
+.right {
+    float: right;
+    margin-left: auto;
+}
+
+.rightr {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar {
+    background-color: #756AB6;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+}
+
+
+button {
+    height: 3vw;
+    width: 5vw;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.username-field {
+    width: 15vw;
+    height: 2vw;
+    background-color: aquamarine;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
+
+.submit-field { 
+    width: 5vw;
+    height: 2vw;
+    background-color: aquamarine;
+}
